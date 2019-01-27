@@ -1,0 +1,98 @@
+/* -- BODY -- */
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-image: linear-gradient(rgb(28, 83, 202), white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* -- BODY CONTENT -- */
+.wrapper {
+    max-width: 1336px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 600px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.main {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrestlers {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#wrestlers-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#addyour {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#add-wrestler {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+/* ---Responsive Resize--- */
+@media (min-width: 0px) and (max-width: 500px) {
+    #logo {max-width: 400px; height: auto; overflow: auto;}
+}
+
+@media (min-width: 501px) and (max-width: 640px) {
+    #logo {max-width: 500px; height: auto; overflow: auto;}
+}
+
+@media (min-width:641px) and (max-width: 768px) {
+    #logo {max-width: 640px; height: auto; overflow: auto;}
+}
+
+@media (min-width:769px) and (max-width: 960px) {
+    #logo {max-width: 768px; height: auto;}
+}
